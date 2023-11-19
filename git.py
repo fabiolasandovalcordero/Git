@@ -8,3 +8,9 @@ for numero in lista:
 print(f"La suma de todos los numeros es: {suma}")
 
 
+multiplicacion = 1
+
+for numero in lista:
+    multiplicacion *= numero
+
+print(f"La multiplicacion de todos los numeros es: {multiplicacion}")
